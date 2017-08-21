@@ -1,3 +1,4 @@
+#if 0
 #define _CRT_SECURE_NO_WARNINGS  
 
 /**
@@ -39,7 +40,6 @@ public:
 	void Fun() { std::cout << "hello world" << std::endl; }
 
 };
-
 
 
 int TestSmartPtr1()
@@ -196,14 +196,6 @@ int TestScopedPtr()
 }
 
 
-
-
-
-
-
-
-
-
 int main(void)
 {
 	//TestSmartPtr1();
@@ -211,10 +203,12 @@ int main(void)
 	//TestSmartPtr3();
 	//TestWeakPtr1();
 	//TestScopedArray();
-	TestScopedPtr();
+	//TestScopedPtr();
 	
 
 	//std::cout << "hello world" << std::endl;
 	system("pause");
 	return 0;
 }
+
+#endif
