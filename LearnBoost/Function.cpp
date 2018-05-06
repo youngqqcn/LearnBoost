@@ -1,3 +1,4 @@
+#if 0
 #define _CRT_SECURE_NO_WARNINGS  
 
 /**
@@ -56,3 +57,4 @@ int main(void)
 	system("pause");
 	return 0;
 }
+#endif

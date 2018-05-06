@@ -144,9 +144,51 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="autoptr.cpp" />
+    <ClCompile Include="Bind.cpp" />
+    <ClCompile Include="boostsharedptr.cpp" />
+    <ClCompile Include="boost随机数.cpp" />
+    <ClCompile Include="chronoDemo1.cpp" />
     <ClCompile Include="Containers_Array.cpp" />
+    <ClCompile Include="ExceptionDemo.cpp" />
+    <ClCompile Include="ExceptionDemo2.cpp" />
     <ClCompile Include="Function.cpp" />
+    <ClCompile Include="Function1.cpp" />
+    <ClCompile Include="Function2.cpp" />
+    <ClCompile Include="functionDemo.cpp" />
+    <ClCompile Include="intrusiveptr.cpp" />
+    <ClCompile Include="lexicalcast1.cpp" />
+    <ClCompile Include="std_regex.cpp" />
+    <ClCompile Include="Mutex.cpp" />
+    <ClCompile Include="objectpool.cpp" />
+    <ClCompile Include="pool1.cpp" />
+    <ClCompile Include="ProgramOptions.cpp" />
+    <ClCompile Include="Ref.cpp" />
+    <ClCompile Include="Sample.cpp" />
+    <ClCompile Include="ScopedArray.cpp" />
+    <ClCompile Include="ScopedPtr.cpp" />
+    <ClCompile Include="scopeptr.cpp" />
+    <ClCompile Include="scopeptr2.cpp" />
+    <ClCompile Include="SharedPtr.cpp" />
     <ClCompile Include="SmartPointer.cpp" />
+    <ClCompile Include="SmartPointer2.cpp" />
+    <ClCompile Include="stdsharedptr.cpp" />
+    <ClCompile Include="TestDemo1.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="Tuple.cpp" />
+    <ClCompile Include="uniqueptr.cpp" />
+    <ClCompile Include="uniqueptr2.cpp" />
+    <ClCompile Include="uniqueptr3.cpp" />
+    <ClCompile Include="Unordered.cpp" />
+    <ClCompile Include="WalkDirectory.cpp" />
+    <ClCompile Include="WeakPtr.cpp" />
+    <ClCompile Include="weakptr1.cpp" />
+    <ClCompile Include="weakptr2.cpp" />
+    <ClCompile Include="weakptr3.cpp" />
+    <ClCompile Include="回调函数.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

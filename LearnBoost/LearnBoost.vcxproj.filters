@@ -13,16 +13,195 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Boost智能指针">
+      <UniqueIdentifier>{077243fe-9204-466d-b81a-ebddc9f503cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\理解std::function">
+      <UniqueIdentifier>{c0714b6f-b0c0-4ddd-b6a5-307d8db721a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Thread">
+      <UniqueIdentifier>{f845cff2-b03b-4276-817f-d1b0f7629109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chrono">
+      <UniqueIdentifier>{5413549b-966b-4617-ac17-7381fb225d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Test">
+      <UniqueIdentifier>{93017e4d-81b3-4fcb-96e8-0a07cc3b4947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ref">
+      <UniqueIdentifier>{254dd59e-8755-46e5-8a76-e75fe99bd81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Exception">
+      <UniqueIdentifier>{0f0e3091-73ef-4c79-836a-a3058ecab363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\其他">
+      <UniqueIdentifier>{a79b5360-61ad-4fd8-8f60-7717e467e51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理">
+      <UniqueIdentifier>{7c290973-9fcd-4a61-a818-a1c92ee2bc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理\std::auto_ptr">
+      <UniqueIdentifier>{aec79ab5-e305-401b-9b46-c4314f91e26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理\scope_ptr">
+      <UniqueIdentifier>{7bdc0b11-3931-4aa1-955c-0b608cfd0a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理\shared_ptr">
+      <UniqueIdentifier>{994f3a55-589d-4702-9c89-74aeb6b62c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理\unique_ptr">
+      <UniqueIdentifier>{f69bda29-6ff1-41a9-bf27-7b9361a52e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理\weak_ptr">
+      <UniqueIdentifier>{3e43a219-8da2-4fe2-adda-d45cc8d9c0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理\intrusive_ptr">
+      <UniqueIdentifier>{54f90df2-ce19-44f0-92d8-0966c16bb0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第3章内存管理\pool">
+      <UniqueIdentifier>{04b597b1-1be6-44d5-a39f-56f1d30ab0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第5章字符串与文本处理">
+      <UniqueIdentifier>{c605b78e-faf7-4cd3-90ff-201a5a4c29f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第5章字符串与文本处理\xpressive">
+      <UniqueIdentifier>{716bfa62-b7ca-4a44-bed3-33895caa9003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第5章字符串与文本处理\lexical_cast">
+      <UniqueIdentifier>{bcfde73a-9923-455a-b4b0-696acc84e3c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Containers_Array.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="ScopedPtr.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
     </ClCompile>
-    <ClCompile Include="SmartPointer.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="ScopedArray.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="boost随机数.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedPtr.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="WeakPtr.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="Unordered.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="Bind.cpp">
+      <Filter>源文件\Boost智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="Function1.cpp">
+      <Filter>源文件\理解std::function</Filter>
+    </ClCompile>
+    <ClCompile Include="回调函数.cpp">
+      <Filter>源文件\理解std::function</Filter>
+    </ClCompile>
+    <ClCompile Include="Function2.cpp">
+      <Filter>源文件\理解std::function</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>源文件\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>源文件\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="functionDemo.cpp">
+      <Filter>源文件\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuple.cpp">
+      <Filter>源文件\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="chronoDemo1.cpp">
+      <Filter>源文件\Chrono</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDemo1.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionDemo.cpp">
+      <Filter>源文件\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionDemo2.cpp">
+      <Filter>源文件\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers_Array.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
     <ClCompile Include="Function.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\其他</Filter>
     </ClCompile>
+    <ClCompile Include="ProgramOptions.cpp">
+      <Filter>源文件\其他</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer.cpp">
+      <Filter>源文件\其他</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer2.cpp">
+      <Filter>源文件\其他</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkDirectory.cpp">
+      <Filter>源文件\其他</Filter>
+    </ClCompile>
+    <ClCompile Include="autoptr.cpp">
+      <Filter>源文件\第3章内存管理\std::auto_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="scopeptr.cpp">
+      <Filter>源文件\第3章内存管理\scope_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="uniqueptr.cpp">
+      <Filter>源文件\第3章内存管理\unique_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="boostsharedptr.cpp">
+      <Filter>源文件\第3章内存管理\shared_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="stdsharedptr.cpp">
+      <Filter>源文件\第3章内存管理\shared_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="uniqueptr2.cpp">
+      <Filter>源文件\第3章内存管理\unique_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="scopeptr2.cpp">
+      <Filter>源文件\第3章内存管理\scope_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="uniqueptr3.cpp">
+      <Filter>源文件\第3章内存管理\unique_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="weakptr1.cpp">
+      <Filter>源文件\第3章内存管理\weak_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="weakptr2.cpp">
+      <Filter>源文件\第3章内存管理\weak_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="weakptr3.cpp">
+      <Filter>源文件\第3章内存管理\weak_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="intrusiveptr.cpp">
+      <Filter>源文件\第3章内存管理\intrusive_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="pool1.cpp">
+      <Filter>源文件\第3章内存管理\pool</Filter>
+    </ClCompile>
+    <ClCompile Include="objectpool.cpp">
+      <Filter>源文件\第3章内存管理\pool</Filter>
+    </ClCompile>
+    <ClCompile Include="std_regex.cpp">
+      <Filter>源文件\第5章字符串与文本处理\lexical_cast</Filter>
+    </ClCompile>
+    <ClCompile Include="lexicalcast1.cpp">
+      <Filter>源文件\第5章字符串与文本处理\lexical_cast</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
