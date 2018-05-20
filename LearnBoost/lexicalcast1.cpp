@@ -17,10 +17,35 @@
 #include <regex>
 #include <codecvt>
 
+#include <boost/lexical_cast.hpp>
+using namespace boost;
+
 using namespace std;
 
 int main(void)
 {
+	//字符串转数值
+	std::cout << lexical_cast<int>("34324") << std::endl;
+	
+	try
+	{
+		std::cout << lexical_cast<double>("1.414fdffsa", 6) << std::endl;
+	}
+	catch (const std::exception& e)
+	{
+		std::cout << e.what() << std::endl;
+		std::cout << "发生了异常 " << std::endl;
+	}
+
+	std::stringstream sstr;
+
+
+	//标准
+	std::cout << stoi(" 324 ") << std::endl;
+	std::cout << stof(" 32.04 ") << std::endl;
+	std::cout << stof(" 320432432L ") << std::endl;
+	std::cout << stof(" 32.04rr32432 ") << std::endl;
+	std::cout << std::to_string(23432ul) << std::endl;
 	
 
 	//std::cout << "hello world" << std::endl;
