@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS  
 
 /**
-*Date: 2018/05/19 21:08
+*Date: 2018/05/20 10:07
 *Author:yqq
 *Descriptions:none
 */
@@ -21,41 +21,35 @@
 using namespace std::placeholders;
 using namespace std;
 
-//#include <boost/signals.hpp>
+
 #include <boost/signals2.hpp>
-#include <Windows.h>
 using namespace boost::signals2;
 
-void slot1()
+template<int N>
+struct slots
 {
-	for (int i = 0 ;i < 10; i++)
+	void operator()()
 	{
-		std::cout << "slot1 called" << std::endl;
-		Sleep(100);
+		std::cout << "slot " << N << " called" << std::endl;
 	}
-}
-void slot2()
-{
-	std::cout << "slot2 called" << std::endl;
-}
+};
 
-void foo(signal<void()> &sig)
-{
-	Sleep(1000 * 2);
-	std::cout << "准备发送信号" << std::endl;
-	sig(); //发送信号
-	std::cout << "发送信号完毕" << std::endl;
-
-}
 
 int main(void)
 {
 	signal<void()> sig;
-	sig.connect(&slot1);
+	sig.connect(slots<1>(), at_back);// 未被编组的插槽标志是at_back, 在所有的编组之后调用
+	sig.connect(slots<100>(), at_front); // 未被编组的插槽是at_front, 在所有的编组之后调用
 
-	//sig(); //发送信号
-	foo(sig);
-	
+	sig();
+
+	std::cout << "-------------------" << std::endl;
+
+	sig.connect(5, slots<43>(), at_back);
+	sig.connect(5, slots<55>(), at_front);
+
+	sig();
+
 	//std::cout << "hello world" << std::endl;
 	system("pause");
 	return 0;

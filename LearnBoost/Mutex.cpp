@@ -23,21 +23,32 @@ using namespace std;
 
 boost::mutex mutex;
 
+#if 1   //不使用互斥量
 void Add1(int *a)
 {
-	//mutex.lock();
+	for (int i = 0; i < 10; i++)
+	{
+		*a = *a + 1;
+		std::cout << *a << std::endl;
+	}
+}
+#else   //使用互斥量
+void Add1(int *a)
+{
+	mutex.lock();
 	for (int i = 0; i < 10; i++)
 	{
 		*a = *a + 1;
 		std::cout << *a  << std::endl;
 	}
-	//mutex.unlock();
+	mutex.unlock();
 }
+#endif
 
-/*
 
 //虽然这里是 引用传递, 但是   bind(&Add1, iCommon)   是 值传递??
 
+/*
 void Add1(int &a)
 {
 	mutex.lock();
