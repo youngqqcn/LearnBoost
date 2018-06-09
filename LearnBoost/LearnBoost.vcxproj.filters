@@ -70,6 +70,60 @@
     <Filter Include="源文件\第5章字符串与文本处理\lexical_cast">
       <UniqueIdentifier>{bcfde73a-9923-455a-b4b0-696acc84e3c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第5章字符串与文本处理\format">
+      <UniqueIdentifier>{204d5735-78fd-45c4-85ef-bf67a6ac5a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第5章字符串与文本处理\string_algo">
+      <UniqueIdentifier>{238ac97b-348c-45f2-8b2e-dc16c28133d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第7章容器与数据结构">
+      <UniqueIdentifier>{f6f39173-f42d-4526-93c0-ca35cebf3ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第7章容器与数据结构\array">
+      <UniqueIdentifier>{ae39828f-47e9-4fc0-824f-ea39b53a5bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第7章容器与数据结构\dynamic_bitset">
+      <UniqueIdentifier>{340011a8-1e70-4322-b982-ec9fba1c3c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第7章容器与数据结构\tuple">
+      <UniqueIdentifier>{134a1d4c-8eed-4e86-93f0-1c570cc047fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第7章容器与数据结构\any">
+      <UniqueIdentifier>{65b2f33b-3e1f-4c9e-8cb3-c696942304a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第7章容器与数据结构\variant">
+      <UniqueIdentifier>{57b37208-1a7c-4eff-b456-18ed9a0f1ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第7章容器与数据结构\multi_array">
+      <UniqueIdentifier>{63210cab-c4b0-4731-80fb-67a15cae6bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第10章操作系统相关">
+      <UniqueIdentifier>{955e64dd-6a2d-4f10-a2ee-e9e0d9a737d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第10章操作系统相关\filesystem">
+      <UniqueIdentifier>{06c1d2ce-622a-4ba2-9fbd-deb265d28419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第11章函数与回调">
+      <UniqueIdentifier>{a8ca300d-c152-4fed-9410-8791c24da4c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第11章函数与回调\ref">
+      <UniqueIdentifier>{ed639d3d-4871-475a-b7b8-e2b7bc3a400a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第11章函数与回调\bind">
+      <UniqueIdentifier>{653d0b7b-9f04-4303-8b1e-c514f1654c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第11章函数与回调\function">
+      <UniqueIdentifier>{d74f39f5-f19f-400b-ba0e-815c7380000d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第11章函数与回调\signal">
+      <UniqueIdentifier>{321c3270-ca74-4580-b398-e81fef76cb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第12章并发编程">
+      <UniqueIdentifier>{0b593d7e-46bb-4da5-958e-1fe08364e9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第12章网络通信">
+      <UniqueIdentifier>{c430aec0-5a8d-43cb-adc8-8a76ffedb753}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ScopedPtr.cpp">
@@ -109,9 +163,6 @@
       <Filter>Ref</Filter>
     </ClCompile>
     <ClCompile Include="Sample.cpp">
-      <Filter>源文件\Thread</Filter>
-    </ClCompile>
-    <ClCompile Include="Mutex.cpp">
       <Filter>源文件\Thread</Filter>
     </ClCompile>
     <ClCompile Include="functionDemo.cpp">
@@ -198,10 +249,154 @@
     <ClCompile Include="lexicalcast1.cpp">
       <Filter>源文件\第5章字符串与文本处理\lexical_cast</Filter>
     </ClCompile>
+    <ClCompile Include="format1.cpp">
+      <Filter>源文件\第5章字符串与文本处理\format</Filter>
+    </ClCompile>
+    <ClCompile Include="string_algo1.cpp">
+      <Filter>源文件\第5章字符串与文本处理\string_algo</Filter>
+    </ClCompile>
+    <ClCompile Include="xpressive1.cpp">
+      <Filter>源文件\第5章字符串与文本处理\xpressive</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>源文件\第7章容器与数据结构\array</Filter>
+    </ClCompile>
+    <ClCompile Include="bitset1.cpp">
+      <Filter>源文件\第7章容器与数据结构\dynamic_bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="tuple1.cpp">
+      <Filter>源文件\第7章容器与数据结构\tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="any1.cpp">
+      <Filter>源文件\第7章容器与数据结构\any</Filter>
+    </ClCompile>
+    <ClCompile Include="variant.cpp">
+      <Filter>源文件\第7章容器与数据结构\variant</Filter>
+    </ClCompile>
+    <ClCompile Include="multiarray1.cpp">
+      <Filter>源文件\第7章容器与数据结构\multi_array</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem1.cpp">
+      <Filter>源文件\第10章操作系统相关\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem2.cpp">
+      <Filter>源文件\第10章操作系统相关\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem3.cpp">
+      <Filter>源文件\第10章操作系统相关\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ref1.cpp">
+      <Filter>源文件\第11章函数与回调\ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref2.cpp">
+      <Filter>源文件\第11章函数与回调\ref</Filter>
+    </ClCompile>
+    <ClCompile Include="ref0.cpp">
+      <Filter>源文件\第11章函数与回调\ref</Filter>
+    </ClCompile>
+    <ClCompile Include="bind1.cpp">
+      <Filter>源文件\第11章函数与回调\bind</Filter>
+    </ClCompile>
+    <ClCompile Include="bind2.cpp">
+      <Filter>源文件\第11章函数与回调\bind</Filter>
+    </ClCompile>
+    <ClCompile Include="bind3.cpp">
+      <Filter>源文件\第11章函数与回调\bind</Filter>
+    </ClCompile>
+    <ClCompile Include="bind4.cpp">
+      <Filter>源文件\第11章函数与回调\bind</Filter>
+    </ClCompile>
+    <ClCompile Include="function_1.cpp">
+      <Filter>源文件\第11章函数与回调\function</Filter>
+    </ClCompile>
+    <ClCompile Include="function_2.cpp">
+      <Filter>源文件\第11章函数与回调\function</Filter>
+    </ClCompile>
+    <ClCompile Include="signal1.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signal2.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signal3.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signal4.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signal5.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signal6.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signal7.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signal8.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="signalDemo.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="测试extern.cpp">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionVariable.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdregex.cpp">
+      <Filter>源文件\第5章字符串与文本处理\xpressive</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread2.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread3.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread4.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread5.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread6.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread7.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread8.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdthread9.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="单生产者-单消费者模型.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="future.cpp">
+      <Filter>源文件\第12章并发编程</Filter>
+    </ClCompile>
+    <ClCompile Include="server1.cpp">
+      <Filter>源文件\第12章网络通信</Filter>
+    </ClCompile>
+    <ClCompile Include="client1.cpp">
+      <Filter>源文件\第12章网络通信</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="slots.h">
+      <Filter>源文件\第11章函数与回调\signal</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

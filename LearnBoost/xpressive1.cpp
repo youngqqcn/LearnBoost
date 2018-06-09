@@ -9,15 +9,7 @@
 
 #include <iostream>
 #include <string>
-#include <map>
-#include <list>
-#include <vector>
-#include <deque>
-#include <memory>
-#include <regex>
-#include <codecvt>
 
-//#include <boost/regex.hpp>
 #include <boost/xpressive/xpressive.hpp>
 
 using namespace std;
@@ -36,8 +28,8 @@ int main(void)
 	{
 		string str("readme.txt.txt");
 
-		sregex reg1 = sregex::compile("^re.*");
-		sregex reg2 = sregex::compile(".*?txt");
+		sregex reg1 = sregex::compile("^re.*");  //贪婪模式
+		sregex reg2 = sregex::compile(".*?txt");  //非贪婪模式
 		std::cout << regex_match(str, reg1) << std::endl;
 		std::cout << regex_match(str, reg2) << std::endl;
 		std::cout << "================" << std::endl;
@@ -67,9 +59,6 @@ int main(void)
 		std::cout << std::endl;
 
 	}
-
-
-	
 
 	//std::cout << "hello world" << std::endl;
 	system("pause");

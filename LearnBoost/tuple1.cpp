@@ -8,14 +8,14 @@
 */
 
 #include <iostream>
-#include <string>
-#include <map>
-#include <list>
-#include <vector>
-#include <deque>
-#include <memory>
-#include <regex>
-#include <codecvt>
+//#include <string>
+//#include <map>
+//#include <list>
+//#include <vector>
+//#include <deque>
+//#include <memory>
+//#include <regex>
+//#include <codecvt>
 
 #include <tuple>
 
@@ -26,6 +26,8 @@ int main(void)
 
 	auto tp1 = make_tuple("1", 2, 3.3);
 
+	//tp1._Myfirst = 99;
+	tp1.
 	std::cout << get<1>(tp1) << std::endl;
 	
 	
